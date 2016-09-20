@@ -15,6 +15,14 @@ public class Users implements Serializable {
     private String teamName;
     private long salary;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
